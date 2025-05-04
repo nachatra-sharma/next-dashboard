@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
         hostname: 'github.com',
         pathname: '**',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+        pathname: '**',
+      },
     ],
   },
 }
